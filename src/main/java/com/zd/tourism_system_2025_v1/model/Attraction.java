@@ -13,7 +13,7 @@ public class Attraction {
    private String attractionAddress;
    private String openingHours;
    private String introduction;
-   private String  coverImage;
+   private String coverImage;
 
    List<Ticket> ticketList = new ArrayList<Ticket>();//组合模式？管理该景点下的门票
 }
