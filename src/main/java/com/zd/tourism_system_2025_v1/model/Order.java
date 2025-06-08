@@ -17,6 +17,10 @@ public abstract class Order {
     private String customerName;
     private String  customerPhone;
 
+    // 抽象方法，由具体订单类实现
+    public abstract boolean validate();
+    public abstract String getOrderDetails();
+
     /*
     // 模板方法
     public final void processOrder() {
